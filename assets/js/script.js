@@ -11,7 +11,7 @@ $(document).ready(function () {
         $('#error').text(''); 
       }
   
-      var apiUrl = 'https://superheroapi.com/api/10231560101926245/' + valorInput;
+      var apiUrl = 'https://superheroapi.com/api.php/10231560101926245/' + valorInput;
   
       $.ajax({
         type: 'GET',
